@@ -1,12 +1,65 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```sh
+https://currency-converter-nu-nine.vercel.app/
+```
 
-Currently, two official plugins are available:
+This project is a currency converter application built with React.js and Vite. It allows users to convert amounts between different currencies using real-time exchange rates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Convert amounts between different currencies
+- Swap currencies
+- Real-time exchange rates
+- Custom hooks to efficiently manage API calls and state
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/currency-converter.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd currency-converter
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+### Running the Application
+
+To start the development server, run:
+```sh
+npm run dev
+```
+
+### Building the Application
+
+To build the application for production, run:
+```sh
+npm run build
+```
+
+### Linting the Code
+
+To lint the code, run:
+```sh
+npm run lint
+```
+
+## Thank You
